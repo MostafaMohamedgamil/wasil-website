@@ -48,10 +48,7 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl lg:text-5xl font-bold mb-6 text-foreground">Who We Are</h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              BuilderCo is a leading construction and contracting company with decades of experience in delivering
-              world-class infrastructure projects. We specialize in general contracting, infrastructure development,
-              residential and commercial buildings, and industrial projects. Our commitment to excellence and innovation
-              has made us a trusted partner for clients worldwide.
+              At 7Solutions, we provide reliable food supply solutions for restaurants across Egypt. We specialize in importing and distributing premium pasta and cooking oils from certified international sources, ensuring consistent quality, efficient logistics, and long-term partnerships with our clients.
             </p>
             <Button asChild variant="outline" size="lg">
               <Link href="/about">
@@ -167,7 +164,7 @@ export default function HomePage() {
       </section>
 
       {/* Featured Projects */}
-      <section className="py-16 lg:py-24 bg-muted">
+      {/* <section className="py-16 lg:py-24 bg-muted">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-foreground">Featured Projects</h2>
@@ -234,7 +231,7 @@ export default function HomePage() {
             </Button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Clients & Partners */}
       <section className="py-16 lg:py-24 bg-background">
