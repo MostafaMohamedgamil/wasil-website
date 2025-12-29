@@ -17,19 +17,21 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/",
-        media: "",
+        url: "https://cdn.breadfast.com/wp-content/uploads/2019/02/cropped-favicon-1-150x150-1-32x32.png",
+        sizes: "32x32",
       },
       {
-        url: "/",
-        media: "",
-      },
-      {
-        url: "/",
-        type: "",
+        url: "https://cdn.breadfast.com/wp-content/uploads/2019/02/cropped-favicon-1-150x150-1-192x192.png",
+        sizes: "192x192",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: {
+      url: "https://cdn.breadfast.com/wp-content/uploads/2019/02/cropped-favicon-1-150x150-1-180x180.png",
+    },
+    other: {
+      rel: "msapplication-TileImage",
+      url: "https://cdn.breadfast.com/wp-content/uploads/2019/02/cropped-favicon-1-150x150-1-270x270.png",
+    },
   },
 }
 
