@@ -17,30 +17,30 @@ export function Navbar() {
            {/* <div className="text-2xl font-bold tracking-tight bg-gradient-to-r from-[#3A0099] to-[#9B4DFF] bg-clip-text text-transparent">
               7 Solutions
             </div> */}
-            <div className="text-2xl font-bold text-blue-400 tracking-tight">7 Solutions</div>
+            <div className="text-2xl font-bold text-[#a264f3] tracking-tight">7 Solutions</div>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
-            <Link href="/" className="text-sm font-medium hover:text-accent transition-colors">
+            <Link href="/" className="text-sm font-medium hover:text-[#9760df] transition-colors">
               Home
             </Link>
-            <Link href="/about" className="text-sm font-medium hover:text-accent transition-colors">
+            <Link href="/about" className="text-sm font-medium hover:text-[#9760df] transition-colors">
               About Us
             </Link>
-            <Link href="/services" className="text-sm font-medium hover:text-accent transition-colors">
+            {/* <Link href="/services" className="text-sm font-medium hover:text-accent transition-colors">
               Services
+            </Link> */}
+            <Link href="/projects" className="text-sm font-medium hover:text-[#9760df] transition-colors">
+              Products
             </Link>
-            <Link href="/projects" className="text-sm font-medium hover:text-accent transition-colors">
-              Projects
-            </Link>
-            <Link href="/careers" className="text-sm font-medium hover:text-accent transition-colors">
+            {/* <Link href="/careers" className="text-sm font-medium hover:text-[#9760df] transition-colors">
               Careers
             </Link>
-            <Link href="/news" className="text-sm font-medium hover:text-accent transition-colors">
+            <Link href="/news" className="text-sm font-medium hover:text-[#9760df] transition-colors">
               News
-            </Link>
-            <Link href="/contact" className="text-sm font-medium hover:text-accent transition-colors">
+            </Link> */}
+            <Link href="/contact" className="text-sm font-medium hover:text-[#9760df] transition-colors">
               Contact
             </Link>
           </div>
@@ -50,7 +50,7 @@ export function Navbar() {
             <Button
               asChild
               variant="outline"
-              className="border-primary-foreground text-primary-foreground hover:bg-accent hover:text-accent-foreground bg-transparent"
+              className="border-primary-foreground rounded-xl text-primary-foreground hover:bg-[#a264f3] hover:border-[#be8dfd] hover:text-white bg-transparent"
             >
               <Link href="/contact">Get in Touch</Link>
             </Button>

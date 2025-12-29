@@ -49,7 +49,7 @@ export default function HomePage() {
       <section className="py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl lg:text-5xl font-bold mb-6 text-foreground">Who We Are</h2>
+            <h2 className="text-3xl lg:text-5xl font-bold mb-6 text-[#9760df]">Who We Are</h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
               At 7Solutions, we provide reliable food supply solutions for restaurants across Egypt. We specialize in importing and distributing premium pasta and cooking oils from certified international sources, ensuring consistent quality, efficient logistics, and long-term partnerships with our clients.
             </p>
@@ -91,7 +91,7 @@ export default function HomePage() {
       <section className="py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-foreground">Our Products</h2>
+            <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-[#9760df]">Our Products</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Premium pasta and cooking oils carefully selected to meet the needs of professional kitchens, restaurants, and food service businesses.
             </p>
@@ -166,14 +166,14 @@ All products are carefully selected and inspected to meet food safety regulation
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
   {/* Pasta Products */}
   <Card
-    className="border-border hover:border-accent transition-colors bg-cover bg-center"
+    className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
     style={{ backgroundImage: "url('/images/card1.jpeg')" }}
   >
     <CardContent className="p-6 lg:p-8 bg-white/70 rounded-lg">
-      <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-        <Coffee className="text-accent" size={24} />
+      <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mb-4">
+        <Coffee className="text-[#a15bff]" size={24} />
       </div>
-      <h3 className="text-xl font-semibold mb-3 text-card-foreground">Pasta Products</h3>
+      <h3 className="text-xl font-semibold mb-3 text-[#9760df]">Pasta Products</h3>
       <p className="text-muted-foreground leading-relaxed">
         A wide range of high-quality pasta varieties suitable for professional kitchens, offering consistent texture, taste, and performance for daily restaurant use.
       </p>
@@ -182,14 +182,14 @@ All products are carefully selected and inspected to meet food safety regulation
 
 
   {/* Cooking Oils */}
-  <Card className="border-border hover:border-accent transition-colors bg-cover bg-center"
+  <Card className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
    style={{ backgroundImage: "url('/images/card2.jpeg')" }}
    >
     <CardContent className="p-6 lg:p-8 bg-white/70 rounded-lg">
-      <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-        <Droplet className="text-accent" size={24} />
+      <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mb-4">
+        <Droplet className="text-[#a15bff]" size={24} />
       </div>
-      <h3 className="text-xl font-semibold mb-3 text-card-foreground">Traflata al brozo</h3>
+      <h3 className="text-xl font-semibold mb-3 text-[#9760df]">Traflata al brozo</h3>
       <p className="text-muted-foreground leading-relaxed">
         Traflata al Brozo is a traditional dish known for its rich flavors and aromatic spices, offering a unique taste experience rooted in authentic culinary heritage
       </p>
@@ -197,33 +197,33 @@ All products are carefully selected and inspected to meet food safety regulation
   </Card>
 
   {/* Imported Brands */}
-  <Card className="border-border hover:border-accent transition-colors bg-cover bg-center"
+  <Card className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
    style={{ backgroundImage: "url('/images/card3.jpeg')" }}>
     <CardContent className="p-6 lg:p-8 bg-white/70 rounded-lg">
-      <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-        <Users className="text-accent" size={24} />
+      <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mb-4">
+        <Users className="text-[#a15bff]" size={24} />
       </div>
-      <h3 className="text-xl font-semibold mb-3 text-card-foreground">Grano Italiano</h3>
+      <h3 className="text-xl font-semibold mb-3 text-[#9760df]">Grano Italiano</h3>
       <p className="text-muted-foreground leading-relaxed">
 Grano Italiano is a premium Italian wheat, prized for its quality and rich, nutty flavor, perfect for authentic pasta and baked goods.      </p>
     </CardContent>
   </Card>
 
   {/* Bulk Supply Solutions */}
-  <Card className="border-border hover:border-accent transition-colors bg-cover bg-center"
+  <Card className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
    style={{ backgroundImage: "url('/images/card4.jpeg')" }}>
     <CardContent className="p-6 lg:p-8 bg-white/70 rounded-lg">
-      <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-        <Award className="text-accent" size={24} />
+      <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mb-4">
+        <Award className="text-[#a15bff]" size={24} />
       </div>
-      <h3 className="text-xl font-semibold mb-3 text-card-foreground">Westgold</h3>
+      <h3 className="text-xl font-semibold mb-3 text-[#9760df]">Westgold</h3>
       <p className="text-muted-foreground leading-relaxed">
 Westgold is a high-quality product known for its purity and excellence, delivering consistent performance and premium results      </p>
     </CardContent>
   </Card>
 
   {/* Quality Assurance */}
-  {/* <Card className="border-border hover:border-accent transition-colors">
+  {/* <Card className="border-border hover:border-[#b581f8] transition-colors">
     <CardContent className="p-6 lg:p-8">
       <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
         <ShieldCheck className="text-accent" size={24} />
@@ -236,7 +236,7 @@ Westgold is a high-quality product known for its purity and excellence, deliveri
   </Card> */}
 
   {/* View All Products Button */}
-  <Card className="border-border hover:border-accent transition-colors justify-center flex flex-col">
+  <Card className="border-border hover:border-[#b581f8] transition-colors justify-center flex flex-col">
     <CardContent className="p-6 lg:p-8 flex items-center justify-center">
       <Button asChild variant="outline" size="lg">
         <Link href="/services">
@@ -324,7 +324,7 @@ Westgold is a high-quality product known for its purity and excellence, deliveri
       <section className="py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-foreground">Trusted By Industry Leaders</h2>
+            <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-[#9760df]">Trusted By Industry Leaders</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Proud to partner with the world's most respected organizations
             </p>
@@ -352,7 +352,7 @@ Westgold is a high-quality product known for its purity and excellence, deliveri
       We source top-quality products from trusted international suppliers and deliver them directly to your kitchen, ensuring freshness, reliability, and efficiency for your restaurant or café.
     </p>
     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-      <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
+      {/* <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
         <Link href="/contact">
           Request a Quote
           <ArrowRight className="ml-2" size={20} />
@@ -365,7 +365,7 @@ Westgold is a high-quality product known for its purity and excellence, deliveri
         className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary bg-transparent"
       >
         <Link href="/services">Our Products</Link>
-      </Button>
+      </Button> */}
     </div>
   </div>
 </section>

@@ -3,8 +3,8 @@ import { Target, Eye, Heart, Award } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
 export const metadata: Metadata = {
-  title: "About Us - BuilderCo",
-  description: "Learn about BuilderCo's history, vision, mission, and leadership team.",
+  title: "About Us - 7Solutions",
+  description: "Learn about 7Solutions' history, vision, mission, and leadership team.",
 }
 
 export default function AboutPage() {
@@ -15,15 +15,15 @@ export default function AboutPage() {
         <div
           className="absolute inset-0 opacity-10"
           style={{
-            backgroundImage: "url(/placeholder.svg?height=500&width=1920&query=construction+team+meeting)",
+            backgroundImage: "url(/images/about-cover.jpeg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         />
         <div className="relative container mx-auto px-4 lg:px-8 text-center">
-          <h1 className="text-4xl lg:text-6xl font-bold mb-6">About BuilderCo</h1>
-          <p className="text-lg lg:text-xl text-primary-foreground/90 max-w-3xl mx-auto">
-            Building excellence since 1990, transforming communities through innovative construction solutions
+          <h1 className="text-4xl lg:text-6xl font-bold text-[#9760df] mb-6">About us</h1>
+          <p className="text-lg lg:text-xl  text-gray-400 max-w-3xl mx-auto">
+           Delivering Quality Ingredients to Restaurants Across Egypt
           </p>
         </div>
       </section>
@@ -33,29 +33,24 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div>
-              <h2 className="text-3xl lg:text-5xl font-bold mb-6 text-foreground">Our Story</h2>
+              <h2 className="text-3xl lg:text-5xl font-bold mb-6 text-[#9760df]">Our Story</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Founded in 1990, BuilderCo has grown from a small regional contractor to one of the most respected
-                  construction companies in the industry. Our journey has been marked by a relentless commitment to
-                  quality, innovation, and client satisfaction.
+             
+Founded with a vision to provide top-quality imported pasta, macaroni, and cooking oils to Egypt's culinary sector, 7solutions has become a trusted partner for restaurants seeking reliable and premium ingredients.
                 </p>
                 <p>
-                  Over the past three decades, we've successfully completed over 500 projects ranging from
-                  infrastructure development and commercial buildings to residential communities and industrial
-                  facilities. Each project reflects our dedication to excellence and our ability to deliver complex
-                  construction solutions on time and within budget.
+           We specialize in sourcing the finest products from around the world and ensuring they reach our clients efficiently and safely. From small bistros to renowned restaurants, our commitment is to support the culinary community with consistent quality and exceptional service.
                 </p>
                 <p>
-                  Today, BuilderCo employs over 2,500 skilled professionals and operates across multiple regions,
-                  bringing world-class construction expertise to every project we undertake.
+               At 7solutions, we believe that great food starts with great ingredients. Our team works tirelessly to maintain strong relationships with international suppliers and local restaurants, bridging the gap between global quality and local demand.
                 </p>
               </div>
             </div>
             <div
               className="h-[400px] lg:h-[500px] rounded-lg bg-cover bg-center"
               style={{
-                backgroundImage: "url(/placeholder.svg?height=500&width=600&query=modern+construction+site+overview)",
+                backgroundImage: "url(/images/postal.jpeg)",
               }}
             />
           </div>
@@ -68,26 +63,26 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
             <Card className="border-border">
               <CardContent className="p-8 lg:p-10">
-                <div className="w-16 h-16 bg-accent/10 rounded-lg flex items-center justify-center mb-6">
-                  <Eye className="text-accent" size={32} />
+                <div className="w-16 h-16 bg-[#e3ceff] rounded-lg flex items-center justify-center mb-6">
+                  <Eye className="text-[#a15bff]" size={32} />
                 </div>
-                <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-card-foreground">Our Vision</h3>
+                <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-[#9760df]">Our Vision</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  To be the world's most trusted construction partner, recognized for transforming ambitious visions
-                  into landmark realities through innovation, sustainability, and uncompromising quality.
+                 
+To be Egypt’s most trusted supplier of high-quality pasta, macaroni, and cooking oils, empowering restaurants with ingredients that inspire culinary excellence.
+
                 </p>
               </CardContent>
             </Card>
             <Card className="border-border">
               <CardContent className="p-8 lg:p-10">
-                <div className="w-16 h-16 bg-accent/10 rounded-lg flex items-center justify-center mb-6">
-                  <Target className="text-accent" size={32} />
+                <div className="w-16 h-16 bg-[#e3ceff] rounded-lg flex items-center justify-center mb-6">
+                  <Target className="text-[#a15bff]" size={32} />
                 </div>
-                <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-card-foreground">Our Mission</h3>
+                <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-[#9760df]">Our Mission</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  To deliver exceptional construction solutions that exceed client expectations, foster sustainable
-                  communities, and create lasting value for all stakeholders through excellence, integrity, and
-                  continuous innovation.
+                 
+To provide premium imported products with reliability and efficiency, supporting restaurants across Egypt to deliver exceptional dining experiences. We are committed to quality, transparency, and building strong, lasting partnerships with both international suppliers and local clients.
                 </p>
               </CardContent>
             </Card>
@@ -99,7 +94,7 @@ export default function AboutPage() {
       <section className="py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-foreground">Our Core Values</h2>
+            <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-[#9760df]">Our Core Values</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               The principles that guide everything we do
             </p>
@@ -107,10 +102,10 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             <Card className="border-border">
               <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Award className="text-accent" size={24} />
+                <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <Award className="text-[#a15bff]" size={24} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-card-foreground">Excellence</h3>
+                <h3 className="text-xl font-semibold mb-3 text-[#9760df]">Excellence</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   Striving for the highest standards in every aspect of our work
                 </p>
@@ -118,10 +113,10 @@ export default function AboutPage() {
             </Card>
             <Card className="border-border">
               <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Heart className="text-accent" size={24} />
+                <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <Heart className="text-[#a15bff]" size={24} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-card-foreground">Integrity</h3>
+                <h3 className="text-xl font-semibold mb-3 text-[#9760df]">Integrity</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   Building trust through honest, transparent, and ethical practices
                 </p>
@@ -129,10 +124,10 @@ export default function AboutPage() {
             </Card>
             <Card className="border-border">
               <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Target className="text-accent" size={24} />
+                <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <Target className="text-[#a15bff]" size={24} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-card-foreground">Innovation</h3>
+                <h3 className="text-xl font-semibold mb-3 text-[#9760df]">Innovation</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   Embracing new technologies and methods to deliver better results
                 </p>
@@ -140,10 +135,10 @@ export default function AboutPage() {
             </Card>
             <Card className="border-border">
               <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Eye className="text-accent" size={24} />
+                <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <Eye className="text-[#a15bff]" size={24} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 text-card-foreground">Safety</h3>
+                <h3 className="text-xl font-semibold mb-3 text-[#9760df]">Safety</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   Ensuring the wellbeing of our team and stakeholders is our top priority
                 </p>
@@ -157,7 +152,7 @@ export default function AboutPage() {
       <section className="py-16 lg:py-24 bg-muted">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-foreground">Our Leadership</h2>
+            <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-[#9760df]">Our Leadership</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Experienced professionals driving our vision forward
             </p>

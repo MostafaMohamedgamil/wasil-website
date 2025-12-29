@@ -1,85 +1,42 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { Card } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardContent } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Coffee, Droplet, Users, Award, ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Projects - BuilderCo",
-  description: "Explore BuilderCo's portfolio of completed construction projects across various sectors.",
+  title: "Products - BuilderCo",
+  description: "Explore BuilderCo's range of high-quality products.",
 }
 
-const projects = [
+const products = [
   {
-    id: "downtown-business-center",
-    title: "Downtown Business Center",
-    category: "Commercial",
-    location: "New York, USA",
-    image: "modern+skyscraper+business+building",
-    description: "A 45-story mixed-use development featuring office spaces, retail, and luxury residences.",
+    id: "pasta-products",
+    title: "Pasta Products",
+    icon: Coffee,
+    image: "/images/card1.jpeg",
+    description: "A wide range of high-quality pasta varieties suitable for professional kitchens, offering consistent texture, taste, and performance for daily restaurant use.",
   },
   {
-    id: "metropolitan-highway",
-    title: "Metropolitan Highway Extension",
-    category: "Infrastructure",
-    location: "Los Angeles, USA",
-    image: "highway+bridge+infrastructure+construction",
-    description: "22-mile highway expansion project including bridges, overpasses, and smart traffic systems.",
+    id: "traflata-al-brozo",
+    title: "Traflata al brozo",
+    icon: Droplet,
+    image: "/images/card2.jpeg",
+    description: "Traflata al Brozo is a traditional dish known for its rich flavors and aromatic spices, offering a unique taste experience rooted in authentic culinary heritage",
   },
   {
-    id: "advanced-manufacturing",
-    title: "Advanced Manufacturing Facility",
-    category: "Industrial",
-    location: "Chicago, USA",
-    image: "industrial+factory+modern+facility",
-    description: "State-of-the-art 500,000 sq ft facility with automated systems and sustainable design.",
+    id: "grano-italiano",
+    title: "Grano Italiano",
+    icon: Users,
+    image: "/images/card3.jpeg",
+    description: "Grano Italiano is a premium Italian wheat, prized for its quality and rich, nutty flavor, perfect for authentic pasta and baked goods.",
   },
   {
-    id: "riverside-residences",
-    title: "Riverside Luxury Residences",
-    category: "Residential",
-    location: "Miami, USA",
-    image: "luxury+apartment+residential+building",
-    description: "35-story luxury residential tower with 200 units and premium amenities.",
-  },
-  {
-    id: "tech-park-campus",
-    title: "Tech Park Campus",
-    category: "Commercial",
-    location: "San Francisco, USA",
-    image: "modern+office+campus+technology",
-    description: "1.2 million sq ft technology campus with collaborative workspaces and green areas.",
-  },
-  {
-    id: "regional-airport",
-    title: "Regional Airport Expansion",
-    category: "Infrastructure",
-    location: "Dallas, USA",
-    image: "airport+terminal+modern+architecture",
-    description: "New terminal building with 30 gates and advanced passenger processing systems.",
-  },
-  {
-    id: "waterfront-mall",
-    title: "Waterfront Shopping Mall",
-    category: "Commercial",
-    location: "Seattle, USA",
-    image: "shopping+mall+retail+center",
-    description: "350,000 sq ft retail complex with entertainment facilities and waterfront views.",
-  },
-  {
-    id: "solar-power-plant",
-    title: "Solar Power Plant",
-    category: "Industrial",
-    location: "Phoenix, USA",
-    image: "solar+power+plant+renewable+energy",
-    description: "100 MW solar farm providing clean energy to 30,000 homes.",
-  },
-  {
-    id: "urban-transit-hub",
-    title: "Urban Transit Hub",
-    category: "Infrastructure",
-    location: "Boston, USA",
-    image: "transit+station+modern+urban",
-    description: "Multi-modal transportation center connecting subway, bus, and commuter rail services.",
+    id: "westgold",
+    title: "Westgold",
+    icon: Award,
+    image: "/images/card4.jpeg",
+    description: "Westgold is a high-quality product known for its purity and excellence, delivering consistent performance and premium results",
   },
 ]
 
@@ -89,47 +46,46 @@ export default function ProjectsPage() {
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 bg-primary text-primary-foreground">
         <div
-          className="absolute inset-0 opacity-10"
+          className="absolute inset-0 opacity-20"
           style={{
-            backgroundImage: "url(/placeholder.svg?height=500&width=1920&query=construction+projects+portfolio)",
+            backgroundImage: "url(/images/pastraa.jpeg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         />
         <div className="relative container mx-auto px-4 lg:px-8 text-center">
-          <h1 className="text-4xl lg:text-6xl font-bold mb-6">Our Projects</h1>
+          <h1 className="text-4xl lg:text-6xl font-bold mb-6 text-[#9760df]">Our Products</h1>
           <p className="text-lg lg:text-xl text-primary-foreground/90 max-w-3xl mx-auto">
-            Showcasing our commitment to excellence through landmark projects across multiple sectors
+            Discover our range of high-quality products, carefully selected to meet professional standards and deliver exceptional results.
           </p>
         </div>
       </section>
 
-      {/* Projects Grid */}
+      {/* Products Grid */}
       <section className="py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {projects.map((project) => (
-              <Link key={project.id} href={`/projects/${project.id}`}>
-                <Card className="group overflow-hidden border-border hover:border-accent transition-all h-full">
-                  <div
-                    className="h-64 bg-cover bg-center transition-transform group-hover:scale-105"
-                    style={{
-                      backgroundImage: `url(/placeholder.svg?height=300&width=400&query=${project.image})`,
-                    }}
-                  />
-                  <div className="p-6">
-                    <Badge variant="secondary" className="mb-3 bg-accent/10 text-accent hover:bg-accent/20">
-                      {project.category}
-                    </Badge>
-                    <h3 className="text-xl font-semibold mb-2 text-card-foreground group-hover:text-accent transition-colors">
-                      {project.title}
-                    </h3>
-                    <p className="text-muted-foreground text-sm mb-3">{project.location}</p>
-                    <p className="text-muted-foreground leading-relaxed text-sm">{project.description}</p>
-                  </div>
+            {products.map((product) => {
+              const Icon = product.icon
+              return (
+                <Card
+                  key={product.id}
+                  className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
+                  style={{ backgroundImage: `url('${product.image}')` }}
+                >
+                  <CardContent className="p-6 lg:p-8 bg-white/70 rounded-lg">
+                    <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mb-4">
+                      <Icon className="text-[#a15bff]" size={24} />
+                    </div>
+                    <h3 className="text-xl font-semibold mb-3 text-[#9760df]">{product.title}</h3>
+                    <p className="text-muted-foreground leading-relaxed">
+                      {product.description}
+                    </p>
+                  </CardContent>
                 </Card>
-              </Link>
-            ))}
+              )
+            })}
+
           </div>
         </div>
       </section>
