@@ -18,10 +18,10 @@ export default function HomePage() {
         />
         <div className="relative container mx-auto px-4 lg:px-8 text-center">
           <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold mb-6 text-balance">
-            Building Tomorrow's Infrastructure Today
+           Your Trusted Partner for Premium Pasta & Cooking Oil Supply
           </h1>
           <p className="text-lg lg:text-xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto text-balance">
-            Leading the construction industry with excellence, innovation, and unwavering commitment to quality.
+          We specialize in importing and distributing high-quality pasta and cooking oils from trusted international sources, serving restaurants, cafés, and food chains across Egypt with reliable and consistent supply.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
