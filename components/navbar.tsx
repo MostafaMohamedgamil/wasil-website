@@ -14,7 +14,10 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="text-2xl font-bold tracking-tight">7 Solutions</div>
+           {/* <div className="text-2xl font-bold tracking-tight bg-gradient-to-r from-[#3A0099] to-[#9B4DFF] bg-clip-text text-transparent">
+              7 Solutions
+            </div> */}
+            <div className="text-2xl font-bold text-blue-400 tracking-tight">7 Solutions</div>
           </Link>
 
           {/* Desktop Navigation */}
