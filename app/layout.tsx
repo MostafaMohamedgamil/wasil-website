@@ -13,20 +13,20 @@ export const metadata: Metadata = {
   title: "BuilderCo - Leading Construction & Contracting Company",
   description:
     "Professional construction and contracting services including general contracting, infrastructure, residential, commercial, and industrial projects.",
-  generator: "v0.app",
+  generator: "wasil.app",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
+        url: "/",
+        media: "",
       },
       {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
+        url: "/",
+        media: "",
       },
       {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/",
+        type: "",
       },
     ],
     apple: "/apple-icon.png",
