@@ -202,8 +202,8 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const resolvedParams = await params
   const project = projectsData[resolvedParams.id]
   return {
-    title: `${project?.title || "Project"} - BuilderCo`,
-    description: project?.description || "BuilderCo construction project",
+    title: `${project?.title || "Project"} - 7Solutions`,
+    description: project?.description || "7Solutions construction project",
   }
 }
 

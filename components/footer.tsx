@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">BUILDERCO</h3>
+            <h3 className="text-2xl font-bold mb-4">7Solutions</h3>
             <p className="text-sm text-primary-foreground/80 mb-4">
               Building the future with excellence, innovation, and integrity.
             </p>

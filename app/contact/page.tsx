@@ -7,8 +7,8 @@ import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 
 export const metadata: Metadata = {
-  title: "Contact Us - BuilderCo",
-  description: "Get in touch with BuilderCo for your construction and contracting needs.",
+  title: "Contact Us - 7Solutions",
+  description: "Get in touch with 7Solutions for your construction and contracting needs.",
 }
 
 export default function ContactPage() {

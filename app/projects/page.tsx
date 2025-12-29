@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 import { Coffee, Droplet, Users, Award, ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Products - BuilderCo",
-  description: "Explore BuilderCo's range of high-quality products.",
+  title: "Products - 7Solutions",
+  description: "Explore 7Solutions's range of high-quality products.",
 }
 
 const products = [
