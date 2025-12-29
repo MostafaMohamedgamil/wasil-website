@@ -10,7 +10,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "BuilderCo - Leading Construction & Contracting Company",
+  title: "7 Solutions",
   description:
     "Professional construction and contracting services including general contracting, infrastructure, residential, commercial, and industrial projects.",
   generator: "wasil.app",
