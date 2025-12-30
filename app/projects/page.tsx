@@ -14,23 +14,23 @@ const products = [
     id: "pasta-products",
     title: "Pasta Products",
     icon: Coffee,
-    image: "/images/card1.jpeg",
-    description: "A wide range of high-quality pasta varieties suitable for professional kitchens, offering consistent texture, taste, and performance for daily restaurant use.",
+    image: "/images/backImg.jpeg",
+    description: "Crafted pasta varieties made for exceptional taste and quality, using carefully selected ingredients to deliver perfect texture and rich flavor in every dish.",
   },
-  {
-    id: "traflata-al-brozo",
-    title: "Traflata al brozo",
-    icon: Droplet,
-    image: "/images/card2.jpeg",
-    description: "Traflata al Brozo is a traditional dish known for its rich flavors and aromatic spices, offering a unique taste experience rooted in authentic culinary heritage",
-  },
-  {
-    id: "grano-italiano",
-    title: "Grano Italiano",
-    icon: Users,
-    image: "/images/card3.jpeg",
-    description: "Grano Italiano is a premium Italian wheat, prized for its quality and rich, nutty flavor, perfect for authentic pasta and baked goods.",
-  },
+  // {
+  //   id: "traflata-al-brozo",
+  //   title: "Traflata al brozo",
+  //   icon: Droplet,
+  //   image: "/images/card2.jpeg",
+  //   description: "Traflata al Brozo is a traditional dish known for its rich flavors and aromatic spices, offering a unique taste experience rooted in authentic culinary heritage",
+  // },
+  // {
+  //   id: "grano-italiano",
+  //   title: "Grano Italiano",
+  //   icon: Users,
+  //   image: "/images/card3.jpeg",
+  //   description: "Grano Italiano is a premium Italian wheat, prized for its quality and rich, nutty flavor, perfect for authentic pasta and baked goods.",
+  // },
   {
     id: "westgold",
     title: "Westgold",
@@ -64,13 +64,13 @@ export default function ProjectsPage() {
       {/* Products Grid */}
       <section className="py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          <div className="flex flex-col items-center gap-6 lg:gap-8">
             {products.map((product) => {
               const Icon = product.icon
               return (
                 <Card
                   key={product.id}
-                  className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
+                  className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center w-full md:w-10/12 lg:w-4/12 "
                   style={{ backgroundImage: `url('${product.image}')` }}
                 >
                   <CardContent className="p-6 lg:p-8 bg-white/70 rounded-lg">
