@@ -149,7 +149,7 @@ To provide premium imported products with reliability and efficiency, supporting
       </section>
 
       {/* Leadership / Board Section */}
-      <section className="py-16 lg:py-24 bg-muted">
+      {/* <section className="py-16 lg:py-24 bg-muted">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-[#9760df]">Our Leadership</h2>
@@ -183,7 +183,7 @@ To provide premium imported products with reliability and efficiency, supporting
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

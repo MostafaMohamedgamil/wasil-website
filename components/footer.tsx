@@ -10,9 +10,9 @@ export function Footer() {
           <div>
             <h3 className="text-2xl font-bold mb-4">7Solutions</h3>
             <p className="text-sm text-primary-foreground/80 mb-4">
-              Building the future with excellence, innovation, and integrity.
+             Delivering Quality Ingredients to Restaurants Across Egypt
             </p>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               <Link href="#" className="hover:text-accent transition-colors">
                 <Facebook size={20} />
               </Link>
@@ -25,7 +25,7 @@ export function Footer() {
               <Link href="#" className="hover:text-accent transition-colors">
                 <Instagram size={20} />
               </Link>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -37,17 +37,22 @@ export function Footer() {
                   About Us
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/services" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   Services
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/projects" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                  Projects
+                  Products
                 </Link>
               </li>
-              <li>
+               <li>
+                <Link href="/contact" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  Contact
+                </Link>
+              </li>
+              {/* <li>
                 <Link href="/careers" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   Careers
                 </Link>
@@ -56,12 +61,12 @@ export function Footer() {
                 <Link href="/news" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   News
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
           {/* Services */}
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm">
               <li className="text-primary-foreground/80">General Contracting</li>
@@ -70,7 +75,7 @@ export function Footer() {
               <li className="text-primary-foreground/80">Industrial Projects</li>
               <li className="text-primary-foreground/80">Project Management</li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
           <div>
@@ -78,23 +83,23 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin size={18} className="shrink-0 mt-0.5" />
-                <span className="text-primary-foreground/80">123 Construction Ave, Building District, City 12345</span>
+                <span className="text-primary-foreground/80">3 Khalil Orabi Street – First Floor - Cairo, Egypt</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={18} className="shrink-0" />
-                <span className="text-primary-foreground/80">+1 (555) 123-4567</span>
+                <span className="text-primary-foreground/80">+20 10 30356678</span>
               </li>
-              <li className="flex items-center gap-2">
+              {/* <li className="flex items-center gap-2">
                 <Mail size={18} className="shrink-0" />
                 <span className="text-primary-foreground/80">info@builderco.com</span>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 mt-8 lg:mt-12 pt-8 text-center">
           <p className="text-sm text-primary-foreground/60">
-            © {new Date().getFullYear()} BuilderCo. All rights reserved.
+            © {new Date().getFullYear()} 7Solutions. All rights reserved.
           </p>
         </div>
       </div>
