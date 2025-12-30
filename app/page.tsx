@@ -321,7 +321,7 @@ Westgold is a high-quality product known for its purity and excellence, deliveri
       </section> */}
 
       {/* Clients & Partners */}
-      <section className="py-16 lg:py-24 bg-background">
+      {/* <section className="py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-[#9760df]">Trusted By Industry Leaders</h2>
@@ -340,7 +340,7 @@ Westgold is a high-quality product known for its purity and excellence, deliveri
           </div>
 
         </div>
-      </section>
+      </section> */}
 
       {/* Call to Action */}
     <section className="py-16 lg:py-24 bg-primary text-primary-foreground">
