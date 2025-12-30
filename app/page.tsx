@@ -163,26 +163,43 @@ All products are carefully selected and inspected to meet food safety regulation
               </CardContent>
             </Card>
           </div> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-  {/* Pasta Products */}
+       <div className="flex flex-col items-center gap-6 lg:gap-8">
+
   <Card
-    className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
-    style={{ backgroundImage: "url('/images/card1.jpeg')" }}
+    className="w-full md:w-10/12 lg:w-4/12 border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
+    style={{ backgroundImage: "url('/images/backImg.jpeg')" }}
   >
     <CardContent className="p-6 lg:p-8 bg-white/70 rounded-lg">
       <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mb-4">
         <Coffee className="text-[#a15bff]" size={24} />
       </div>
-      <h3 className="text-xl font-semibold mb-3 text-[#9760df]">Pasta Products</h3>
+      <h3 className="text-xl font-semibold mb-3 text-[#9760df]">
+        Pasta Products
+      </h3>
       <p className="text-muted-foreground leading-relaxed">
-        A wide range of high-quality pasta varieties suitable for professional kitchens, offering consistent texture, taste, and performance for daily restaurant use.
+        Crafted pasta varieties made for exceptional taste and quality, using carefully selected ingredients to deliver perfect texture and rich flavor in every dish.
       </p>
     </CardContent>
   </Card>
 
-
+  <Card
+    className="w-full md:w-10/12 lg:w-4/12 border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
+    style={{ backgroundImage: "url('/images/card4.jpeg')" }}
+  >
+    <CardContent className="p-6 lg:p-8 bg-white/70 rounded-lg">
+      <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mb-4">
+        <Award className="text-[#a15bff]" size={24} />
+      </div>
+      <h3 className="text-xl font-semibold mb-3 text-[#9760df]">
+        Westgold
+      </h3>
+      <p className="text-muted-foreground leading-relaxed">
+        Westgold is a high-quality product known for its purity and excellence, delivering consistent performance and premium results
+      </p>
+    </CardContent>
+  </Card>
   {/* Cooking Oils */}
-  <Card className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
+  {/* <Card className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
    style={{ backgroundImage: "url('/images/card2.jpeg')" }}
    >
     <CardContent className="p-6 lg:p-8 bg-white/70 rounded-lg">
@@ -194,10 +211,10 @@ All products are carefully selected and inspected to meet food safety regulation
         Traflata al Brozo is a traditional dish known for its rich flavors and aromatic spices, offering a unique taste experience rooted in authentic culinary heritage
       </p>
     </CardContent>
-  </Card>
+  </Card> */}
 
   {/* Imported Brands */}
-  <Card className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
+  {/* <Card className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
    style={{ backgroundImage: "url('/images/card3.jpeg')" }}>
     <CardContent className="p-6 lg:p-8 bg-white/70 rounded-lg">
       <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mb-4">
@@ -207,20 +224,10 @@ All products are carefully selected and inspected to meet food safety regulation
       <p className="text-muted-foreground leading-relaxed">
 Grano Italiano is a premium Italian wheat, prized for its quality and rich, nutty flavor, perfect for authentic pasta and baked goods.      </p>
     </CardContent>
-  </Card>
+  </Card> */}
 
   {/* Bulk Supply Solutions */}
-  <Card className="border-border hover:border-[#b581f8] transition-colors bg-cover bg-center"
-   style={{ backgroundImage: "url('/images/card4.jpeg')" }}>
-    <CardContent className="p-6 lg:p-8 bg-white/70 rounded-lg">
-      <div className="w-12 h-12 bg-[#e3ceff] rounded-lg flex items-center justify-center mb-4">
-        <Award className="text-[#a15bff]" size={24} />
-      </div>
-      <h3 className="text-xl font-semibold mb-3 text-[#9760df]">Westgold</h3>
-      <p className="text-muted-foreground leading-relaxed">
-Westgold is a high-quality product known for its purity and excellence, delivering consistent performance and premium results      </p>
-    </CardContent>
-  </Card>
+
 
   {/* Quality Assurance */}
   {/* <Card className="border-border hover:border-[#b581f8] transition-colors">
@@ -236,7 +243,7 @@ Westgold is a high-quality product known for its purity and excellence, deliveri
   </Card> */}
 
   {/* View All Products Button */}
-  <Card className="border-border hover:border-[#b581f8] transition-colors justify-center flex flex-col">
+  {/* <Card className="border-border hover:border-[#b581f8] transition-colors justify-center flex flex-col">
     <CardContent className="p-6 lg:p-8 flex items-center justify-center">
       <Button asChild variant="outline" size="lg">
         <Link href="/services">
@@ -245,7 +252,7 @@ Westgold is a high-quality product known for its purity and excellence, deliveri
         </Link>
       </Button>
     </CardContent>
-  </Card>
+  </Card> */}
 </div>
         </div>
       </section>
