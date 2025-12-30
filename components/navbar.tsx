@@ -79,21 +79,21 @@ export function Navbar() {
             >
               About Us
             </Link>
-            <Link
+            {/* <Link
               href="/services"
               className="block py-2 text-sm font-medium hover:text-accent transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Services
-            </Link>
+            </Link> */}
             <Link
               href="/projects"
               className="block py-2 text-sm font-medium hover:text-accent transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Projects
+              Products
             </Link>
-            <Link
+            {/* <Link
               href="/careers"
               className="block py-2 text-sm font-medium hover:text-accent transition-colors"
               onClick={() => setIsOpen(false)}
@@ -106,7 +106,7 @@ export function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               News
-            </Link>
+            </Link> */}
             <Link
               href="/contact"
               className="block py-2 text-sm font-medium hover:text-accent transition-colors"
