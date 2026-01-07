@@ -68,16 +68,16 @@ export default function HomePage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-5xl lg:text-6xl font-bold text-primary mb-2">5+</div>
+              <div className="text-5xl lg:text-6xl font-bold text-primary mb-2">2+</div>
               <div className="text-lg text-muted-foreground">Years of experience in food supply and distribution</div>
             </div>
             <div className="text-center">
-              <div className="text-5xl lg:text-6xl font-bold text-primary mb-2">500+</div>
+              <div className="text-5xl lg:text-6xl font-bold text-primary mb-2">20+</div>
               <div className="text-lg text-muted-foreground">restaurants and cafés served</div>
             </div>
             <div className="text-center">
-              <div className="text-5xl lg:text-6xl font-bold text-primary mb-2">500+</div>
-              <div className="text-lg text-muted-foreground">tons of products distributed annually</div>
+              <div className="text-5xl lg:text-6xl font-bold text-primary mb-2">7</div>
+              <div className="text-lg text-muted-foreground">products distributed annually</div>
             </div>
             <div className="text-center">
               <div className="text-5xl lg:text-6xl font-bold text-primary mb-2">98%</div>

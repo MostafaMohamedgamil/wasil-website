@@ -17,7 +17,7 @@ export function Navbar() {
            {/* <div className="text-2xl font-bold tracking-tight bg-gradient-to-r from-[#3A0099] to-[#9B4DFF] bg-clip-text text-transparent">
               7 Solutions
             </div> */}
-            <div className="text-2xl font-bold text-white tracking-tight">7 Solutions</div>
+            <div className="text-2xl font-bold text-white tracking-tight">Seven Solutions 7</div>
           </Link>
 
           {/* Desktop Navigation */}
