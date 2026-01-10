@@ -89,10 +89,10 @@ export function Footer() {
                 <Phone size={18} className="shrink-0" />
                 <span className="text-primary-foreground/80">+20 10 30356678</span>
               </li>
-              {/* <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2">
                 <Mail size={18} className="shrink-0" />
-                <span className="text-primary-foreground/80">info@builderco.com</span>
-              </li> */}
+                <span className="text-primary-foreground/80">abdohosny4@gmail.com</span>
+              </li>
             </ul>
           </div>
         </div>
